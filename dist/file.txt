@@ -1,0 +1,45 @@
+
+Download: 153310.96 Kb/s
+Upload: 10471.16 Kb/s
+Ping: 17.72
+Time: 2020-02-26 23:36:11.654378
+
+Download: 153679.67 Kb/s
+Upload: 10620.61 Kb/s
+Ping: 16.424
+Time: 2020-02-26 23:38:51.404018
+
+Download: 155404.50 Kb/s
+Upload: 10417.31 Kb/s
+Ping: 18.403
+Time: 2020-02-27 01:38:51.988279
+
+Download: 158077.76 Kb/s
+Upload: 10509.61 Kb/s
+Ping: 15.976
+Time: 2020-02-27 03:38:51.700569
+
+Download: 159084.80 Kb/s
+Upload: 10629.89 Kb/s
+Ping: 16.303
+Time: 2020-02-27 05:38:51.647499
+
+Download: 158809.84 Kb/s
+Upload: 10613.40 Kb/s
+Ping: 17.448
+Time: 2020-02-27 07:38:51.809791
+
+Download: 112187.91 Kb/s
+Upload: 11069.49 Kb/s
+Ping: 18.465
+Time: 2020-02-27 09:38:51.718788
+
+Download: 2756.56 Kb/s
+Upload: 8754.89 Kb/s
+Ping: 19.921
+Time: 2020-02-27 11:39:05.723546
+
+Download: 1110.21 Kb/s
+Upload: 6819.88 Kb/s
+Ping: 27.693
+Time: 2020-02-27 12:58:09.138780
