@@ -1,0 +1,15 @@
+
+Download: 131.40 Kb/s
+Upload: 10.73 Kb/s
+Ping: 15.773
+Time: 2020-02-27 17:43:05.802295
+
+Download: 157.26 Mb/s
+Upload: 10.86 Mb/s
+Ping: 18.081
+Time: 2020-02-27 17:44:04.897182
+
+Download: 130.48 Mb/s
+Upload: 10.90 Mb/s
+Ping: 15.307
+Time: 2020-02-27 17:44:53.163395
