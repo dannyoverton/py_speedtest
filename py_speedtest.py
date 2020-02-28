@@ -3,6 +3,7 @@ import datetime
 import time
 import itertools
 import wx
+import subprocess
 
 
 
@@ -77,8 +78,18 @@ class Example(wx.Frame):
         button = wx.Button(panel, wx.ID_ANY, 'Give me your Spirit', (50, 50))
         button.Bind(wx.EVT_BUTTON, OnButton)
 
+        h_sizer.Add(button, 0, wx.CENTER)
+
+        main_sizer.AddStretchSpacer(prop=1)
+        main_sizer.Add(h_sizer, 0, wx.CENTER)
+        main_sizer.AddStretchSpacer(prop=1)
+        
+        panel.SetSizer(main_sizer)
+
         self.Bind(wx.EVT_MENU, self.OnQuit, fileItem)
         self.Bind(wx.EVT_MENU, self.OnQuit, fileItem_2)
+
+        wx.StaticText('Test')
 
         self.SetSize((300, 200))
 
@@ -95,6 +106,7 @@ app = wx.App()
 ex = Example(None, title='Fuuuuuuuuuuck')
 ex.Show()
 app.MainLoop()
+
 
 
     # pretty write to txt file
