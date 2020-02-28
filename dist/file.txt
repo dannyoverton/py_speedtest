@@ -43,3 +43,13 @@ Download: 1110.21 Kb/s
 Upload: 6819.88 Kb/s
 Ping: 27.693
 Time: 2020-02-27 12:58:09.138780
+
+Download: 15516.66 Kb/s
+Upload: 10658.22 Kb/s
+Ping: 22.812
+Time: 2020-02-27 14:57:49.325114
+
+Download: 17122.40 Kb/s
+Upload: 9671.33 Kb/s
+Ping: 22.586
+Time: 2020-02-27 15:11:51.019767

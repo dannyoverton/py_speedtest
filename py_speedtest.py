@@ -2,6 +2,8 @@ import speedtest
 import datetime
 import time
 import itertools
+import wx
+
 
 
 def test():
@@ -38,6 +40,61 @@ def main():
             print('Ping: {}\n'.format(p))
             print('Time: {}\n'.format(x))
             time.sleep(7200.0 - ((time.time() - starttime) % 7200.0))
+
+
+
+class Example(wx.Frame):
+
+    def __init__(self, parent, title):
+        super(Example, self).__init__(parent, title=title)
+
+        self.InitUI()
+        self.Centre()
+
+    def InitUI(self):
+        def OnButton(self):
+            print('Doing something...')
+            d, u, p = test()
+            x = datetime.datetime.now()
+            print('Download: {:.2f} Mb/s\n'.format(d / 1E+6))
+            print('Upload: {:.2f} Mb/s\n'.format(u / 1E+6))
+            print('Ping: {}\n'.format(p))
+            print('Time: {}\n'.format(x))
+
+        menubar = wx.MenuBar()
+        fileMenu = wx.Menu()
+        backtreMenu= wx.Menu()
+        fileItem = fileMenu.Append(wx.ID_EXIT, 'Quit', 'Quit application')
+        fileItem_2 = backtreMenu.Append(wx.ID_EXIT, 'Deez Nuts', 'Suck on dem')
+        menubar.Append(fileMenu, '&File')
+        menubar.Append(backtreMenu, '&Backtre')
+        self.SetMenuBar(menubar)
+
+        h_sizer = wx.BoxSizer(wx.HORIZONTAL)
+        main_sizer = wx.BoxSizer(wx.HORIZONTAL)
+
+        panel = wx.Panel(self, wx.ID_ANY)
+        button = wx.Button(panel, wx.ID_ANY, 'Give me your Spirit', (50, 50))
+        button.Bind(wx.EVT_BUTTON, OnButton)
+
+        self.Bind(wx.EVT_MENU, self.OnQuit, fileItem)
+        self.Bind(wx.EVT_MENU, self.OnQuit, fileItem_2)
+
+        self.SetSize((300, 200))
+
+
+        
+        
+
+    def OnQuit(self, e):
+        self.Close()
+
+
+
+app = wx.App()
+ex = Example(None, title='Fuuuuuuuuuuck')
+ex.Show()
+app.MainLoop()
 
 
     # pretty write to txt file
