@@ -2,6 +2,7 @@ import speedtest
 import datetime
 import time
 import itertools
+from tkinter import *
 
 
 def test():
@@ -37,6 +38,22 @@ def main():
             print('Ping: {}\n'.format(p))
             print('Time: {}\n'.format(x))
             time.sleep(7200.0 - ((time.time() - starttime) % 7200.0))
+
+
+
+window = Tk()
+window.title("Welcome to LikeGeeks app")
+window.geometry('350x200')
+lbl = Label(window, text='Hola')
+lbl.grid(column=0, row=0)
+
+def clicked():
+    d, u, p = test()
+    lbl.configure(text=('D:{:.1f}\nU:{:.1f}\nP:{:.1f}').format(d / 1E+6, u / 1E+6, p))
+
+btn = Button(window, text='Test the Internet speed', command=clicked)
+btn.grid(column=1, row=0)
+window.mainloop()
 
 
     # pretty write to txt file

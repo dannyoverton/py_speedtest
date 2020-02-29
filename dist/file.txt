@@ -78,3 +78,58 @@ Download: 154.79 Mb/s
 Upload: 11.00 Mb/s
 Ping: 17.866
 Time: 2020-02-27 21:52:19.571100
+
+Download: 160.09 Mb/s
+Upload: 10.92 Mb/s
+Ping: 15.869
+Time: 2020-02-27 23:52:19.627828
+
+Download: 163.59 Mb/s
+Upload: 11.13 Mb/s
+Ping: 14.608
+Time: 2020-02-28 01:52:19.935668
+
+Download: 162.83 Mb/s
+Upload: 10.62 Mb/s
+Ping: 19.142
+Time: 2020-02-28 03:52:20.101400
+
+Download: 162.14 Mb/s
+Upload: 11.02 Mb/s
+Ping: 15.402
+Time: 2020-02-28 05:52:20.042438
+
+Download: 163.28 Mb/s
+Upload: 10.76 Mb/s
+Ping: 17.647
+Time: 2020-02-28 07:52:19.945859
+
+Download: 49.72 Mb/s
+Upload: 10.71 Mb/s
+Ping: 18.192
+Time: 2020-02-28 09:52:20.236495
+
+Download: 7.09 Mb/s
+Upload: 10.89 Mb/s
+Ping: 20.955
+Time: 2020-02-28 14:22:11.508762
+
+Download: 19.95 Mb/s
+Upload: 10.85 Mb/s
+Ping: 18.107
+Time: 2020-02-28 15:31:17.708152
+
+Download: 31.27 Mb/s
+Upload: 11.40 Mb/s
+Ping: 14.962
+Time: 2020-02-28 16:13:23.142160
+
+Download: 140.01 Mb/s
+Upload: 11.31 Mb/s
+Ping: 20.236
+Time: 2020-02-28 18:13:23.905634
+
+Download: 161.59 Mb/s
+Upload: 10.30 Mb/s
+Ping: 16.712
+Time: 2020-02-28 20:13:23.195676
