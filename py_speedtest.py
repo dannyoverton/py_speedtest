@@ -18,7 +18,7 @@ starttime=time.time()
 def main():
     # write to csv
     with open('file.csv', 'a') as f, open('file.txt', 'a') as g:
-        for i in itertools.count(0):
+        for i in range(1):
             d, u, p = test()
             x = datetime.datetime.now()
             f = open('file.csv', 'a')
@@ -37,22 +37,30 @@ def main():
             print('Upload: {:.2f} Mb/s\n'.format(u / 1E+6))
             print('Ping: {}\n'.format(p))
             print('Time: {}\n'.format(x))
-            time.sleep(7200.0 - ((time.time() - starttime) % 7200.0))
+            lbl.configure(text=('D:{:.1f}\nU:{:.1f}\nP:{:.1f}').format(d / 1E+6, u / 1E+6, p))
 
 
 
-window = Tk()
-window.title("Welcome to LikeGeeks app")
+window=Tk()
+w = window.winfo_reqwidth()
+h = window.winfo_reqheight()
+ws = window.winfo_screenwidth()
+hs = window.winfo_screenheight()
+x = (ws/2) - (w/2)
+y=(hs / 2) - (h / 2)
+
+window.geometry('+%d+%d' % (x, y)) ## this part allows you to only change the location
+window.title("Step right up and test your Internets")
 window.geometry('350x200')
 lbl = Label(window, text='Hola')
-lbl.grid(column=0, row=0)
+lbl.place(relx=0.6, rely=0.1, anchor=CENTER)
 
 def clicked():
     d, u, p = test()
     lbl.configure(text=('D:{:.1f}\nU:{:.1f}\nP:{:.1f}').format(d / 1E+6, u / 1E+6, p))
 
-btn = Button(window, text='Test the Internet speed', command=clicked)
-btn.grid(column=1, row=0)
+btn = Button(window, text='Test the Internet speed', command=main)
+btn.place(relx=0.5, rely=0.5, anchor=CENTER)
 window.mainloop()
 
 
